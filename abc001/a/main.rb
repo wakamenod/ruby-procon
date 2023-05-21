@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # $stdin = DATA
 h1 = gets.to_i
 h2 = gets.to_i
