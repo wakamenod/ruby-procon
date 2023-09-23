@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+# [A] HonestOrDishonest
+# https://atcoder.jp/contests/abc056/tasks/abc056_a
+puts(gets.split.then { |a, b| a == 'H' ? b : b == 'H' ? 'D' : 'H' })
