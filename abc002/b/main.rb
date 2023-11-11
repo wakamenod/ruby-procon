@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 罠
+## https://atcoder.jp/contests/abc002/tasks/abc002_2
+puts(gets.chomp.chars.filter { |c| !'aeiou'.include?(c) }.join)
