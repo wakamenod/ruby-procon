@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] おいしいたこ焼きの食べ方
+## https://atcoder.jp/contests/abc005/tasks/abc005_2
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts((1..n).map { gets.chomp.to_i }.min)
