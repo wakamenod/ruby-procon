@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 辞書式順序
+## https://atcoder.jp/contests/abc007/tasks/abc007_2
+puts(gets.chomp.then { |a| a == 'a' ? '-1' : 'a' })
