@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 名前の確認
+## https://atcoder.jp/contests/abc011/tasks/abc011_2
+puts gets.chomp.capitalize

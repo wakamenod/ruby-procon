@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 錠
+## https://atcoder.jp/contests/abc013/tasks/abc013_2
+puts((1..2).map { gets.to_i }.sort.then { |a, b| [b - a, 10 - b + a].min })
