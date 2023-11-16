@@ -1,6 +1,11 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] choku語
+## https://atcoder.jp/contests/abc017/tasks/abc017_2
+def f(s)
+  return true if s.empty?
+  return false if s !~ /(ch|o|k|u)$/
+
+  f(s.gsub(/(ch|o|k|u)$/, ''))
+end
+
+s = gets.chomp
+puts f(s) ? 'YES' : 'NO'
