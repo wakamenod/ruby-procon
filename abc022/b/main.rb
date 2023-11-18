@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Bumble Bee
+## https://atcoder.jp/contests/abc022/tasks/abc022_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts((1..n).map { gets.to_i }.tally.sum { |_k, v| v - 1 })

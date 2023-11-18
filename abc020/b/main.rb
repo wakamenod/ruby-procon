@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 足し算
+## https://atcoder.jp/contests/abc020/tasks/abc020_b
+a, b = gets.split
+puts eval("#{a}#{b}*2")
