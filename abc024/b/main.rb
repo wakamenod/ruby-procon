@@ -1,6 +1,9 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 自動ドア
+## https://atcoder.jp/contests/abc024/tasks/abc024_b
+n, t = gets.split.map(&:to_i)
+a = (1..n).map { gets.to_i }
+ans = 0
+(1...n).each do |i|
+  ans += [a[i] - a[i - 1], t].min
+end
+puts ans + t
