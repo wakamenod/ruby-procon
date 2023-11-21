@@ -1,6 +1,13 @@
-$stdin = DATA
+## [B] N重丸
+## https://atcoder.jp/contests/abc026/tasks/abc026_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+r = (1..n).map { gets.to_i }.sort.reverse
+ans = 0
+r.each_index do |i|
+  if i.even?
+    ans += r[i] * r[i]
+  else
+    ans -= r[i] * r[i]
+  end
+end
+puts ans * Math::PI
