@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] ペア
+## https://atcoder.jp/contests/abc034/tasks/abc034_b
+puts(gets.to_i.then { |n| n.even? ? n - 1 : n + 1 })
