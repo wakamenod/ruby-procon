@@ -1,6 +1,8 @@
-$stdin = DATA
+## [B] □□□□□
+## https://atcoder.jp/contests/abc040/tasks/abc040_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+min = 9_999_999
+(1..n).each do |i|
+  min = [min, (i - n / i).abs + (n - i * (n / i))].min
+end
+puts min

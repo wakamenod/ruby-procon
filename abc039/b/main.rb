@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] エージェント高橋君
+## https://atcoder.jp/contests/abc039/tasks/abc039_b
+puts Math.sqrt(Math.sqrt(gets.to_i)).to_i
