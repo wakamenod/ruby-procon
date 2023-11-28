@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] ISU
+## https://atcoder.jp/contests/abc078/tasks/abc078_b
+x, y, z = gets.split.map(&:to_i)
+puts (x - z) / (y + z)

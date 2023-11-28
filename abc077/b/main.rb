@@ -1,6 +1,13 @@
-$stdin = DATA
+## [B] Around Square
+## https://atcoder.jp/contests/abc077/tasks/abc077_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+(1...10**5).each do |i|
+  if i * i == n
+    puts i**2
+    break
+  end
+  if i * i > n
+    puts (i - 1)**2
+    break
+  end
+end
