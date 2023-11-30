@@ -1,6 +1,9 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] ∵∴∵
+## https://atcoder.jp/contests/abc058/tasks/abc058_b
+o = gets.chomp.chars
+e = gets.chomp.chars
+o.each_with_index do |oc, i|
+  print oc
+  print e[i] if i < e.length
+end
+puts ''

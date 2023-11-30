@@ -1,6 +1,11 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Choose Integers
+## https://atcoder.jp/contests/abc060/tasks/abc060_b
+a, b, c = gets.split.map(&:to_i)
+found = false
+(1..100).each do |i|
+  if a * i % b == c
+    found = true
+    break
+  end
+end
+puts found ? 'YES' : 'NO'

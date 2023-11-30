@@ -1,6 +1,8 @@
-$stdin = DATA
+## [B] Training Camp
+## https://atcoder.jp/contests/abc055/tasks/abc055_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+ans = 1
+(1..n).each do |i|
+  ans = ans * i % (10**9 + 7)
+end
+puts ans

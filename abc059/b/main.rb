@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Comparison
+## https://atcoder.jp/contests/abc059/tasks/abc059_b
+a = gets.chomp.rjust(100, '0')
+b = gets.chomp.rjust(100, '0')
+puts a > b ? 'GREATER' : a < b ? 'LESS' : 'EQUAL'
