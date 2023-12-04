@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Two Switches
+## https://atcoder.jp/contests/abc070/tasks/abc070_b
+a, b, c, d = gets.split.map(&:to_i)
+puts [[b, d].min - [a, c].max, 0].max

@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Snake Toy
+## https://atcoder.jp/contests/abc067/tasks/abc067_b
+_, k = gets.split.map(&:to_i)
+puts gets.split.map(&:to_i).sort.reverse.take(k).sum

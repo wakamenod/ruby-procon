@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] i18n
+## https://atcoder.jp/contests/abc069/tasks/abc069_b
+s = gets.chomp
+puts "#{s[0]}#{s.length - 2}#{s[-1]}"
