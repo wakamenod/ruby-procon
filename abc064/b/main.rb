@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Traveling AtCoDeer Problem
+## https://atcoder.jp/contests/abc064/tasks/abc064_b
+gets.to_i
+a = gets.split.map(&:to_i)
+puts a.max - a.min
