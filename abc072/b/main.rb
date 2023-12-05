@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] OddString
+## https://atcoder.jp/contests/abc072/tasks/abc072_b
+puts(gets.chomp.chars.each_with_index.reduce('') { |s, (c, i)| i.even? ? "#{s}#{c}" : s })

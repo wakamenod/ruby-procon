@@ -1,6 +1,9 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Collecting Balls (Easy Version)
+## https://atcoder.jp/contests/abc074/tasks/abc074_b
+gets.to_i
+k = gets.to_i
+ans = 0
+gets.split.map(&:to_i).each do |x|
+  ans += [x, (x - k).abs].min
+end
+puts ans * 2

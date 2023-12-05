@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Theater
+## https://atcoder.jp/contests/abc073/tasks/abc073_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts (0...n).map { gets.split.map(&:to_i).then { |l, r| r - l + 1 } }.sum
