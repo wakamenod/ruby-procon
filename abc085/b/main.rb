@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Kagami Mochi
+## https://atcoder.jp/contests/abc085/tasks/abc085_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts (1..n).map { gets }.to_set.length

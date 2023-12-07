@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Two Anagrams
+## https://atcoder.jp/contests/abc082/tasks/abc082_b
+s = gets.chomp.chars.sort.join
+t = gets.chomp.chars.sort.reverse.join
+puts s < t ? 'Yes' : 'No'
