@@ -6,3 +6,5 @@ Style/NumericPredicate:
   Enabled: false
 Style/MethodParameterName:
   Enabled: false
+Metrics/MethodLength:
+  Enabled: false
