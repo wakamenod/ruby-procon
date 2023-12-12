@@ -2,3 +2,7 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/NestedTernaryOperator:
   Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/MethodParameterName:
+  Enabled: false
