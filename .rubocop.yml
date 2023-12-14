@@ -8,3 +8,5 @@ Style/MethodParameterName:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
