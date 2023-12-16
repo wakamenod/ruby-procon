@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Hina Arare
+## https://atcoder.jp/contests/abc089/tasks/abc089_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts gets.split.to_set.length == 4 ? 'Four' : 'Three'

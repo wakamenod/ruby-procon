@@ -1,6 +1,7 @@
-$stdin = DATA
+## [B] Card Game for Two
+## https://atcoder.jp/contests/abc088/tasks/abc088_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+as = gets.split.map(&:to_i).sort.reverse
+alice = as.each_with_index.sum { |a, i| i.even? ? a : 0 }
+bob = as.each_with_index.sum { |a, i| i.odd? ? a : 0 }
+puts alice - bob
