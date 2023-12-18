@@ -1,18 +1,23 @@
 ## [002] Encyclopedia of Parentheses（★3）
 ## https://atcoder.jp/contests/typical90/tasks/typical90_b
-n = gets.to_i
 
 def valid(s)
   score = 0
   s.each do |c|
-    score += c == '(' ? 1 : -1
+    if c == '('
+      score += 1
+    else
+      score -= 1
+    end
     return false if score < 0
   end
   score == 0
 end
 
+n = gets.to_i
+list = ['(', ')'].repeated_permutation(n).to_a
 ans = ''
-['(', ')'].repeated_permutation(n).to_a.each do |s|
-  ans << "#{s.join}\n" if valid(s)
+list.each do |k|
+  ans << "#{k.join}\n" if valid(k)
 end
 puts ans

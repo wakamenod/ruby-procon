@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Maximum Sum
+## https://atcoder.jp/contests/abc096/tasks/abc096_b
+abc = gets.split.map(&:to_i)
+k = gets.to_i
+puts abc.max * (2**k) + abc.sum - abc.max

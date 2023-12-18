@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Bitter Alchemy
+## https://atcoder.jp/contests/abc095/tasks/abc095_b
+n, x = gets.split.map(&:to_i)
+ms = (0...n).map { gets.to_i }
+puts n + (x - ms.sum) / ms.min
