@@ -1,6 +1,5 @@
 ## [003] Longest Circular Road（★4）
 ## https://atcoder.jp/contests/typical90/tasks/typical90_c
-
 N = gets.to_i
 G = Array.new(N) { [] }
 
@@ -31,4 +30,5 @@ end
 
 dist0 = dfs(0, N, G)
 _, mv = dist0.each_with_index.max
-puts dfs(mv, N, G).max + 1
+distmv = dfs(mv, N, G)
+puts distmv.max + 1
