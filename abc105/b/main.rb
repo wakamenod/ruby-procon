@@ -1,6 +1,12 @@
-$stdin = DATA
+## [B] Cakes and Donuts
+## https://atcoder.jp/contests/abc105/tasks/abc105_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+f = 0
+while f <= n
+  if (n - f) % 7 == 0
+    puts 'Yes'
+    return
+  end
+  f += 4
+end
+puts 'No'

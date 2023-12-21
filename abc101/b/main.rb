@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Digit Sums
+## https://atcoder.jp/contests/abc101/tasks/abc101_b
+N = gets.chomp
+puts N.to_i % N.chars.map(&:to_i).sum == 0 ? 'Yes' : 'No'
