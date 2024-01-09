@@ -1,6 +1,5 @@
-$stdin = DATA
+## [B] Christmas Eve Eve
+## https://atcoder.jp/contests/abc115/tasks/abc115_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+p = n.times.map { gets.to_i }
+puts(p.sort.reverse.each_with_index.sum { |a, i| i == 0 ? a / 2 : a })

@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Time Limit Exceeded
+## https://atcoder.jp/contests/abc112/tasks/abc112_b
+N, T = gets.split.map(&:to_i)
+ct = N.times.map { gets.split.map(&:to_i) }
+puts ct.filter { |_c, t| t <= T }.min_by(&:first)&.first || 'TLE'

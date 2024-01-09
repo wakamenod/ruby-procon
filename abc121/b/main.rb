@@ -1,6 +1,10 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Can you solve this?
+## https://atcoder.jp/contests/abc121/tasks/abc121_b
+N, M, C = gets.split.map(&:to_i)
+B = gets.split.map(&:to_i)
+ans = 0
+N.times do
+  a = gets.split.map(&:to_i)
+  ans += 1 if a.zip(B).map { |x, y| x * y }.sum + C > 0
+end
+puts ans
