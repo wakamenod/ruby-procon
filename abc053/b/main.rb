@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] A to Z String
+## https://atcoder.jp/contests/abc053/tasks/abc053_b
+puts gets.chomp[/A.*Z/].length

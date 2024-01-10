@@ -1,6 +1,11 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] ss
+## https://atcoder.jp/contests/abc066/tasks/abc066_b
+s = gets.chomp
+l = s.length
+s = s[0...-2]
+cnt = 1
+while s[0...(s.length / 2)] != s[s.length / 2..]
+  s = s[0...-2]
+  cnt += 1
+end
+puts l - cnt * 2

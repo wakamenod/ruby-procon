@@ -6,6 +6,8 @@ Style/NumericPredicate:
   Enabled: false
 Style/MethodParameterName:
   Enabled: false
+Style/EvenOdd:
+  Enabled: false
 Metrics/MethodLength:
   Enabled: false
 Lint/UselessAssignment:
