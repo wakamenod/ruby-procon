@@ -1,6 +1,7 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Algae
+## https://atcoder.jp/contests/abc127/tasks/abc127_b
+r, D, x = gets.split.map(&:to_i)
+10.times do
+  x = r * x - D
+  puts x
+end
