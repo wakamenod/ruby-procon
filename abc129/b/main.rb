@@ -1,6 +1,9 @@
-$stdin = DATA
+## [B] Balance
+## https://atcoder.jp/contests/abc129/tasks/abc129_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+W = gets.split.map(&:to_i)
+min = 10**18
+(n - 1).times do |i|
+  min = [min, (W[..i].sum - W[i + 1..].sum).abs].min
+end
+puts min

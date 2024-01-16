@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Bite Eating
+## https://atcoder.jp/contests/abc131/tasks/abc131_b
+N, L = gets.split.map(&:to_i)
+puts((L...L + N).to_a.then { |a| a.sum - a.min_by(&:abs) })

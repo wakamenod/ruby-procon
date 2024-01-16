@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Golden Apple
+## https://atcoder.jp/contests/abc134/tasks/abc134_b
+N, D = gets.split.map(&:to_i)
+a = D * 2 + 1
+puts (N + a - 1) / a
