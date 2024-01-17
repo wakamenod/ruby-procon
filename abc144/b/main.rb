@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] 81
+## https://atcoder.jp/contests/abc144/tasks/abc144_b
+puts((1..9).to_a.repeated_permutation(2).map { |a, b| a * b }.include?(gets.to_i) ? 'Yes' : 'No')

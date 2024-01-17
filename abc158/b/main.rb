@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Count Balls
+## https://atcoder.jp/contests/abc158/tasks/abc158_b
+N, A, B = gets.split.map(&:to_i)
+puts (N / (A + B) * A) + [N % (A + B), A].min

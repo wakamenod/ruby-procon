@@ -1,6 +1,11 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Buffet
+## https://atcoder.jp/contests/abc140/tasks/abc140_b
+N = gets.to_i
+A = gets.split.map(&:to_i)
+B = gets.split.map(&:to_i)
+C = gets.split.map(&:to_i)
+ans = 0
+(N - 1).times do |i|
+  ans += C[A[i] - 1] if A[i] + 1 == A[i + 1]
+end
+puts ans + B.sum

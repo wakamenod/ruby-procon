@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Palindrome-philia
+## https://atcoder.jp/contests/abc147/tasks/abc147_b
+S = gets.chomp
+puts((S.length / 2).times.to_a.count { |i| S[i] != S[-(i + 1)] })

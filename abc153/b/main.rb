@@ -1,6 +1,2 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+H, N = gets.split.map(&:to_i)
+puts gets.split.map(&:to_i).sum >= H ? 'Yes' : 'No'

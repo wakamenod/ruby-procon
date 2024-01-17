@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Digits
+## https://atcoder.jp/contests/abc156/tasks/abc156_b
+N, K = gets.split.map(&:to_i)
+puts N.to_s(K).length

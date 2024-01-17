@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Greedy Takahashi
+## https://atcoder.jp/contests/abc149/tasks/abc149_b
+A, B, K = gets.split.map(&:to_i)
+puts [[A - K, 0].max, [B - [K - A, 0].max, 0].max].join(' ')

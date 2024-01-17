@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Comparing Strings
+## https://atcoder.jp/contests/abc152/tasks/abc152_b
+a, b = gets.split
+puts [a * b.to_i, b * a.to_i].min

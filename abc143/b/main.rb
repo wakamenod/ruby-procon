@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] TAKOYAKI FESTIVAL 2019
+## https://atcoder.jp/contests/abc143/tasks/abc143_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts(gets.split.map(&:to_i).combination(2).to_a.sum { |a, b| a * b })

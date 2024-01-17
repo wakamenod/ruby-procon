@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] ROT N
+## https://atcoder.jp/contests/abc146/tasks/abc146_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts(gets.chomp.chars.map { |c| ((c.ord - 'A'.ord + n) % 26 + 'A'.ord).chr }.join)

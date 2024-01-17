@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+N, K, M = gets.split.map(&:to_i)
+A = gets.split.map(&:to_i)
+ans = [M * N - A.sum, 0].max
+puts ans > K ? -1 : ans

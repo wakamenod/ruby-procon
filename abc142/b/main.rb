@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Roller Coaster
+## https://atcoder.jp/contests/abc142/tasks/abc142_b
+N, K = gets.split.map(&:to_i)
+puts(gets.split.map(&:to_i).count { |c| c >= K })
