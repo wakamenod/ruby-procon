@@ -1,6 +1,5 @@
-$stdin = DATA
+## [B] Permutation Check
+## https://atcoder.jp/contests/abc205/tasks/abc205_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+a = gets.split.map(&:to_i)
+puts (1..n).to_a == a.sort ? 'Yes' : 'No'

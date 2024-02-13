@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Nuts
+## https://atcoder.jp/contests/abc204/tasks/abc204_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts(gets.split.map(&:to_i).sum { |a| [a - 10, 0].max })
