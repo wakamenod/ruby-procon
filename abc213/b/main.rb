@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Booby Prize
+## https://atcoder.jp/contests/abc213/tasks/abc213_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts gets.split.map(&:to_i).each_with_index.sort_by { |v, _| v }.reverse[1][1] + 1
