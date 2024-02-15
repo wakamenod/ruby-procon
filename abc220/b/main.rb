@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Base K
+## https://atcoder.jp/contests/abc220/tasks/abc220_b
+k = gets.to_i
+a, b = gets.split
+puts a.to_i(k) * b.to_i(k)

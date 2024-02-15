@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] qwerty
+## https://atcoder.jp/contests/abc218/tasks/abc218_b
+puts(gets.split.map { |s| (s.to_i + 96).chr }.join)

@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Same Name
+## https://atcoder.jp/contests/abc216/tasks/abc216_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts n.times.map { gets }.to_set.length == n ? 'No' : 'Yes'
