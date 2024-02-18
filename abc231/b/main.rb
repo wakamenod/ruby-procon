@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Election
+## https://atcoder.jp/contests/abc231/tasks/abc231_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts n.times.map { gets }.tally.max_by { |_k, v| v }.first

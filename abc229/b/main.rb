@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Hard Calculation
+## https://atcoder.jp/contests/abc229/tasks/abc229_b
+ab = gets.split.map { |s| s.rjust(20, '0').chars }
+puts ab.transpose.any? { |a, b| a.to_i + b.to_i > 9 } ? 'Hard' : 'Easy'

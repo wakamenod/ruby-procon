@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Triple Metre
+## https://atcoder.jp/contests/abc230/tasks/abc230_b
+target = 'oxx' * (10**5)
+s = gets.chomp
+puts target.include?(s) ? 'Yes' : 'No'
