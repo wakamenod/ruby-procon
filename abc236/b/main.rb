@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Who is missing?
+## https://atcoder.jp/contests/abc236/tasks/abc236_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts(gets.split.map(&:to_i).tally.filter { |_k, v| v == 3 }.first.first)

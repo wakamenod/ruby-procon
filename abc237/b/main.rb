@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Matrix Transposition
+## https://atcoder.jp/contests/abc237/tasks/abc237_b
+h, w = gets.split.map(&:to_i)
+A = h.times.map { gets.split.map(&:to_i) }
+puts(A.transpose.map { |r| r.join(' ') })

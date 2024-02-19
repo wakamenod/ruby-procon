@@ -1,6 +1,10 @@
-$stdin = DATA
+## [B] Climbing Takahashi
+## https://atcoder.jp/contests/abc235/tasks/abc235_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+ans = 0
+gets.split.map(&:to_i).each do |h|
+  break if h <= ans
+
+  ans = h
+end
+puts ans

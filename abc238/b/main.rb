@@ -1,6 +1,5 @@
-$stdin = DATA
+## [B] Pizza
+## https://atcoder.jp/contests/abc238/tasks/abc238_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+arr = gets.split.map(&:to_i).inject([0]) { |sums, n| sums << (sums.last + n) % 360 }
+puts(arr.push(360).sort.each_cons(2).map { |a, b| b - a }.max)
