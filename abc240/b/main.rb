@@ -1,6 +1,4 @@
-$stdin = DATA
+## [B] Count Distinct Integers
+## https://atcoder.jp/contests/abc240/tasks/abc240_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+puts gets.split.map(&:to_i).to_set.length
