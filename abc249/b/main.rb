@@ -1,6 +1,7 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Perfect String
+## https://atcoder.jp/contests/abc249/tasks/abc249_b
+S = gets.chomp
+a = S.upcase != S
+b = S.downcase != S
+c = S.chars.length == S.chars.to_set.length
+puts a && b && c ? 'Yes' : 'No'

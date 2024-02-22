@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Get Closer
+## https://atcoder.jp/contests/abc246/tasks/abc246_b
+a, b = gets.split.map(&:to_i)
+d = Math.sqrt(a**2 + b**2)
+puts "#{a / d} #{b / d}"
