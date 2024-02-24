@@ -1,6 +1,12 @@
-$stdin = DATA
+## [B] Practical Computing
+## https://atcoder.jp/contests/abc254/tasks/abc254_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+ans = []
+n.times do |i|
+  ans << Array.new(i + 1)
+  ans[i][0] = ans[i][i] = 1
+  1.upto(i - 1) do |j|
+    ans[i][j] = ans[i - 1][j - 1] + ans[i - 1][j]
+  end
+end
+puts(ans.each.map { |s| s.join(' ') })
