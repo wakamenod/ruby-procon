@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Batters
+## https://atcoder.jp/contests/abc256/tasks/abc256_b
+nn = gets.to_i
+arr = gets.split.map(&:to_i)
+puts(arr.reverse.inject([0]) { |sums, n| sums << (sums.last + n) }.count { |v| v > 3 })
