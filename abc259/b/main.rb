@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Counterclockwise Rotation
+## https://atcoder.jp/contests/abc259/tasks/abc259_b
+a, b, d = gets.split.map(&:to_i)
+r = d * (Math::PI / 180)
+puts "#{a * Math.cos(r) - b * Math.sin(r)} #{a * Math.sin(r) + b * Math.cos(r)}"
