@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Prefix?
+## https://atcoder.jp/contests/abc268/tasks/abc268_b
+s = gets.chomp
+t = gets.chomp
+puts t.start_with?(s) ? 'Yes' : 'No'
