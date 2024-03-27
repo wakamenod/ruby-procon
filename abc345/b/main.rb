@@ -1,6 +1,3 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Integer Division Returns
+## https://atcoder.jp/contests/abc345/tasks/abc345_b
+puts (gets.to_i + 9) / 10
