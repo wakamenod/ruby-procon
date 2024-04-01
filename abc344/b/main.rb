@@ -1,6 +1,9 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Delimiter
+## https://atcoder.jp/contests/abc344/tasks/abc344_b
+ar = []
+loop do
+  a = gets.to_i
+  ar << a
+  break if a == 0
+end
+puts ar.reverse
