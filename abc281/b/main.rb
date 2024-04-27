@@ -1,6 +1,4 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Sandwich Number
+## https://atcoder.jp/contests/abc281/tasks/abc281_b
+S = gets.chomp
+puts S.match(/^[A-Z]\d{6}[A-Z]$/) && S[1..5].to_i >= 10_000 ? 'Yes' : 'No'
