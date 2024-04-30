@@ -1,6 +1,11 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [B] Inverse Prefix Sum
+## https://atcoder.jp/contests/abc280/tasks/abc280_b
+N = gets.to_i
+S = gets.split.map(&:to_i)
+sum = 0
+arr = []
+S.each do |s|
+  arr << s - sum
+  sum += (s - sum)
+end
+puts arr.join(' ')
