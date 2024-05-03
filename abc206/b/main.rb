@@ -1,6 +1,9 @@
-$stdin = DATA
+## [B] Savings
+## https://atcoder.jp/contests/abc206/tasks/abc206_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+1.upto(100_000) do |i|
+  if i * (i + 1) >= 2 * n
+    puts i
+    exit
+  end
+end
