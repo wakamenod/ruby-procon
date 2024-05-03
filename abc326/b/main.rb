@@ -1,6 +1,13 @@
-$stdin = DATA
+## [B] 326-like Numbers
+## https://atcoder.jp/contests/abc326/tasks/abc326_b
 n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+loop do
+  a = n / 100
+  b = (n / 10) % 10
+  c = n % 10
+  if a * b == c
+    puts n
+    exit
+  end
+  n += 1
+end
