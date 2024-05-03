@@ -1,6 +1,8 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+N, M = gets.split.map(&:to_i)
+mp = Array.new(N) { Array.new(N, '-') }
+M.times do
+  a, b = gets.split.map(&:to_i)
+  mp[a - 1][b - 1] = 'o'
+  mp[b - 1][a - 1] = 'x'
+end
+puts(mp.map { |a| a.join(' ') })
