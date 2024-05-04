@@ -1,6 +1,5 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+## [C] Σ
+## https://atcoder.jp/contests/abc346/tasks/abc346_c
+N, K = gets.split.map(&:to_i)
+sum = gets.split.map(&:to_i).filter { |a| a <= K }.to_set.to_a.sum
+puts (K * (K + 1)) / 2 - sum
