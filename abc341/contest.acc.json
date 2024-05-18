@@ -13,7 +13,7 @@
       "directory": {
         "path": "a",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -24,7 +24,7 @@
       "directory": {
         "path": "b",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -35,7 +35,7 @@
       "directory": {
         "path": "c",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -46,7 +46,7 @@
       "directory": {
         "path": "d",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -57,7 +57,7 @@
       "directory": {
         "path": "e",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -68,7 +68,7 @@
       "directory": {
         "path": "f",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     },
     {
@@ -79,7 +79,7 @@
       "directory": {
         "path": "g",
         "testdir": "test",
-        "submit": "main.rb"
+        "submit": "main.cpp"
       }
     }
   ]
