@@ -1,6 +1,2 @@
-$stdin = DATA
-n = gets.to_i
-p gets.split.take(n).collect(&:to_i)
-__END__
-3
-10 20 30
+i = gets.chomp[3..].to_i
+puts (1..349).reject{ |x| x == 316 }.include?(i) ? 'Yes' : 'No'
