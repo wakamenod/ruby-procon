@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc362",
+  "contest_name": "Toyota Programming Contest 2024#7（AtCoder Beginner Contest 362）",
+  "url": "https://atcoder.jp/contests/abc362",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Buy a Pen",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_a"
+    },
+    {
+      "id": "b",
+      "name": "Right Triangle",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_b"
+    },
+    {
+      "id": "c",
+      "name": "Sum = 0",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_c"
+    },
+    {
+      "id": "d",
+      "name": "Shortest Path 3",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_d"
+    },
+    {
+      "id": "e",
+      "name": "Count Arithmetic Subsequences",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_e"
+    },
+    {
+      "id": "f",
+      "name": "Perfect Matching on a Tree",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_f"
+    },
+    {
+      "id": "g",
+      "name": "Count Substring Query",
+      "url": "https://atcoder.jp/contests/abc362/tasks/abc362_g"
+    }
+  ]
+}

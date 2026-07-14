@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc360",
+  "contest_name": "AtCoder Beginner Contest 360",
+  "url": "https://atcoder.jp/contests/abc360",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "A Healthy Breakfast",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_a"
+    },
+    {
+      "id": "b",
+      "name": "Vertical Reading",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b"
+    },
+    {
+      "id": "c",
+      "name": "Move It",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_c"
+    },
+    {
+      "id": "d",
+      "name": "Ghost Ants",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_d"
+    },
+    {
+      "id": "e",
+      "name": "Random Swaps of Balls",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_e"
+    },
+    {
+      "id": "f",
+      "name": "InterSections",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_f"
+    },
+    {
+      "id": "g",
+      "name": "Suitable Edit for LIS",
+      "url": "https://atcoder.jp/contests/abc360/tasks/abc360_g"
+    }
+  ]
+}

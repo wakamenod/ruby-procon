@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc359",
+  "contest_name": "UNIQUE VISION Programming Contest 2024 Summer (AtCoder Beginner Contest 359)",
+  "url": "https://atcoder.jp/contests/abc359",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Count Takahashi",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_a"
+    },
+    {
+      "id": "b",
+      "name": "Couples",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_b"
+    },
+    {
+      "id": "c",
+      "name": "Tile Distance 2",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_c"
+    },
+    {
+      "id": "d",
+      "name": "Avoid K Palindrome",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_d"
+    },
+    {
+      "id": "e",
+      "name": "Water Tank",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_e"
+    },
+    {
+      "id": "f",
+      "name": "Tree Degree Optimization",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_f"
+    },
+    {
+      "id": "g",
+      "name": "Sum of Tree Distance",
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_g"
+    }
+  ]
+}

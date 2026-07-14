@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc364",
+  "contest_name": "Japan Registry Services (JPRS) Programming Contest 2024#2 (AtCoder Beginner Contest 364)",
+  "url": "https://atcoder.jp/contests/abc364",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Glutton Takahashi",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_a"
+    },
+    {
+      "id": "b",
+      "name": "Grid Walk",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_b"
+    },
+    {
+      "id": "c",
+      "name": "Minimum Glutton",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_c"
+    },
+    {
+      "id": "d",
+      "name": "K-th Nearest",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_d"
+    },
+    {
+      "id": "e",
+      "name": "Maximum Glutton",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_e"
+    },
+    {
+      "id": "f",
+      "name": "Range Connect MST",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_f"
+    },
+    {
+      "id": "g",
+      "name": "Last Major City",
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_g"
+    }
+  ]
+}

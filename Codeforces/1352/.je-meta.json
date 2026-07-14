@@ -1,0 +1,43 @@
+{
+  "judge": "codeforces",
+  "contest_id": "1352",
+  "contest_name": "1352",
+  "url": "https://codeforces.com/contest/1352",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Sum of Round Numbers",
+      "url": "https://codeforces.com/contest/1352/problem/A"
+    },
+    {
+      "id": "b",
+      "name": "Same Parity Summands",
+      "url": "https://codeforces.com/contest/1352/problem/B"
+    },
+    {
+      "id": "c",
+      "name": "K-th Not Divisible by n",
+      "url": "https://codeforces.com/contest/1352/problem/C"
+    },
+    {
+      "id": "d",
+      "name": "Alice, Bob and Candies",
+      "url": "https://codeforces.com/contest/1352/problem/D"
+    },
+    {
+      "id": "e",
+      "name": "Special Elements",
+      "url": "https://codeforces.com/contest/1352/problem/E"
+    },
+    {
+      "id": "f",
+      "name": "Binary String Reconstruction",
+      "url": "https://codeforces.com/contest/1352/problem/F"
+    },
+    {
+      "id": "g",
+      "name": "Special Permutation",
+      "url": "https://codeforces.com/contest/1352/problem/G"
+    }
+  ]
+}

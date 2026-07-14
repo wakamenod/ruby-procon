@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc361",
+  "contest_name": "Denso Create Programming Contest 2024（AtCoder Beginner Contest 361）",
+  "url": "https://atcoder.jp/contests/abc361",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Insert",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_a"
+    },
+    {
+      "id": "b",
+      "name": "Intersection of Cuboids",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_b"
+    },
+    {
+      "id": "c",
+      "name": "Make Them Narrow",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_c"
+    },
+    {
+      "id": "d",
+      "name": "Go Stone Puzzle",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_d"
+    },
+    {
+      "id": "e",
+      "name": "Tree and Hamilton Path 2",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_e"
+    },
+    {
+      "id": "f",
+      "name": "x = a^b",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_f"
+    },
+    {
+      "id": "g",
+      "name": "Go Territory",
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_g"
+    }
+  ]
+}
