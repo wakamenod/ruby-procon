@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc375",
+  "contest_name": "Panasonic Programming Contest 2024（AtCoder Beginner Contest 375）",
+  "url": "https://atcoder.jp/contests/abc375",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Seats",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_a"
+    },
+    {
+      "id": "b",
+      "name": "Traveling Takahashi Problem",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_b"
+    },
+    {
+      "id": "c",
+      "name": "Spiral Rotation",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c"
+    },
+    {
+      "id": "d",
+      "name": "ABA",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_d"
+    },
+    {
+      "id": "e",
+      "name": "3 Team Division",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_e"
+    },
+    {
+      "id": "f",
+      "name": "Road Blocked",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_f"
+    },
+    {
+      "id": "g",
+      "name": "Road Blocked 2",
+      "url": "https://atcoder.jp/contests/abc375/tasks/abc375_g"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc371",
+  "contest_name": "AtCoder Beginner Contest 371",
+  "url": "https://atcoder.jp/contests/abc371",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Jiro",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Taro",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Make Isomorphic",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "1D Country",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "I Hate Sigma Problems",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Takahashi in Narrow Road",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Lexicographically Smallest Permutation",
+      "url": "https://atcoder.jp/contests/abc371/tasks/abc371_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

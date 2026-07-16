@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc366",
+  "contest_name": "AtCoder Beginner Contest 366",
+  "url": "https://atcoder.jp/contests/abc366",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Election 2",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_a"
+    },
+    {
+      "id": "b",
+      "name": "Vertical Writing",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_b"
+    },
+    {
+      "id": "c",
+      "name": "Balls and Bag Query",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_c"
+    },
+    {
+      "id": "d",
+      "name": "Cuboid Sum Query",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_d"
+    },
+    {
+      "id": "e",
+      "name": "Manhattan Multifocal Ellipse",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_e"
+    },
+    {
+      "id": "f",
+      "name": "Maximum Composition",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_f"
+    },
+    {
+      "id": "g",
+      "name": "XOR Neighbors",
+      "url": "https://atcoder.jp/contests/abc366/tasks/abc366_g"
+    }
+  ]
+}

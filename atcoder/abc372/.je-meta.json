@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc372",
+  "contest_name": "UNIQUE VISION Programming Contest 2024 Autumn (AtCoder Beginner Contest 372)",
+  "url": "https://atcoder.jp/contests/abc372",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "delete .",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "3^A",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Count ABC Again",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Buildings",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "K-th Largest Connected Components",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Teleporting Takahashi 2",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Ax + By < C",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc369",
+  "contest_name": "AtCoder Beginner Contest 369",
+  "url": "https://atcoder.jp/contests/abc369",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "369",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Piano 3",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Count Arithmetic Subarrays",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Bonus EXP",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "Sightseeing Tour",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Gather Coins",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "As far as possible",
+      "url": "https://atcoder.jp/contests/abc369/tasks/abc369_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

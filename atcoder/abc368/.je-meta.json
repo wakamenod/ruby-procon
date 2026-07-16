@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc368",
+  "contest_name": "Hitachi Vantara Programming Contest 2024（AtCoder Beginner Contest 368）",
+  "url": "https://atcoder.jp/contests/abc368",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Cut",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Decrease 2 max elements",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Triple Attack",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Minimum Steiner Tree",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "Train Delay",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Dividing Game",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Add and Multiply Queries",
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

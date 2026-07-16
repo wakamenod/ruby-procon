@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc365",
+  "contest_name": "Toyota Programming Contest 2024#8（AtCoder Beginner Contest 365）",
+  "url": "https://atcoder.jp/contests/abc365",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Leap Year",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_a"
+    },
+    {
+      "id": "b",
+      "name": "Second Best",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_b"
+    },
+    {
+      "id": "c",
+      "name": "Transportation Expenses",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_c"
+    },
+    {
+      "id": "d",
+      "name": "AtCoder Janken 3",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_d"
+    },
+    {
+      "id": "e",
+      "name": "Xor Sigma Problem",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_e"
+    },
+    {
+      "id": "f",
+      "name": "Takahashi on Grid",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_f"
+    },
+    {
+      "id": "g",
+      "name": "AtCoder Office",
+      "url": "https://atcoder.jp/contests/abc365/tasks/abc365_g"
+    }
+  ]
+}

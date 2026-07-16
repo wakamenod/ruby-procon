@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc374",
+  "contest_name": "KEYENCE Programming Contest 2024（AtCoder Beginner Contest 374）",
+  "url": "https://atcoder.jp/contests/abc374",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Takahashi san 2",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_a"
+    },
+    {
+      "id": "b",
+      "name": "Unvarnished Report",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_b"
+    },
+    {
+      "id": "c",
+      "name": "Separated Lunch",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_c"
+    },
+    {
+      "id": "d",
+      "name": "Laser Marking",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_d"
+    },
+    {
+      "id": "e",
+      "name": "Sensor Optimization Dilemma 2",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_e"
+    },
+    {
+      "id": "f",
+      "name": "Shipping",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_f"
+    },
+    {
+      "id": "g",
+      "name": "Only One Product Name",
+      "url": "https://atcoder.jp/contests/abc374/tasks/abc374_g"
+    }
+  ]
+}

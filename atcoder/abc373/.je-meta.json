@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc373",
+  "contest_name": "AtCoder Beginner Contest 373",
+  "url": "https://atcoder.jp/contests/abc373",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "September",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "1D Keyboard",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Max Ai+Bj",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Hidden Weights",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "How to Win the Election",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Knapsack with Diminishing Values",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "No Cross Matching",
+      "url": "https://atcoder.jp/contests/abc373/tasks/abc373_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

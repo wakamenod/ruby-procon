@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc376",
+  "contest_name": "AtCoder Beginner Contest 376",
+  "url": "https://atcoder.jp/contests/abc376",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Candy Button",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_a"
+    },
+    {
+      "id": "b",
+      "name": "Hands on Ring (Easy)",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_b"
+    },
+    {
+      "id": "c",
+      "name": "Prepare Another Box",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c"
+    },
+    {
+      "id": "d",
+      "name": "Cycle",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_d"
+    },
+    {
+      "id": "e",
+      "name": "Max × Sum",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_e"
+    },
+    {
+      "id": "f",
+      "name": "Hands on Ring (Hard)",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_f"
+    },
+    {
+      "id": "g",
+      "name": "Treasure Hunting",
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_g"
+    }
+  ]
+}

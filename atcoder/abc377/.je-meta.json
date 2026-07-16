@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc377",
+  "contest_name": "TOYOTA SYSTEMS Programming Contest 2024（AtCoder Beginner Contest 377)",
+  "url": "https://atcoder.jp/contests/abc377",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Rearranging ABC",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_a"
+    },
+    {
+      "id": "b",
+      "name": "Avoid Rook Attack",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_b"
+    },
+    {
+      "id": "c",
+      "name": "Avoid Knight Attack",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_c"
+    },
+    {
+      "id": "d",
+      "name": "Many Segments 2",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_d"
+    },
+    {
+      "id": "e",
+      "name": "Permute K times 2",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_e"
+    },
+    {
+      "id": "f",
+      "name": "Avoid Queen Attack",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_f"
+    },
+    {
+      "id": "g",
+      "name": "Edit to Match",
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_g"
+    }
+  ]
+}

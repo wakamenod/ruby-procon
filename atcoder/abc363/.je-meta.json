@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc363",
+  "contest_name": "AtCoder Beginner Contest 363",
+  "url": "https://atcoder.jp/contests/abc363",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Piling Up",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Japanese Cursed Doll",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Avoid K Palindrome 2",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Palindromic Number",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "Sinking Land",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Palindromic Expression",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Dynamic Scheduling",
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

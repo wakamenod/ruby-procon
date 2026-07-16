@@ -1,0 +1,43 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc378",
+  "contest_name": "AtCoder Beginner Contest 378",
+  "url": "https://atcoder.jp/contests/abc378",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Pairing",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_a"
+    },
+    {
+      "id": "b",
+      "name": "Garbage Collection",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_b"
+    },
+    {
+      "id": "c",
+      "name": "Repeating",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c"
+    },
+    {
+      "id": "d",
+      "name": "Count Simple Paths",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_d"
+    },
+    {
+      "id": "e",
+      "name": "Mod Sigma Problem",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_e"
+    },
+    {
+      "id": "f",
+      "name": "Add One Edge 2",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_f"
+    },
+    {
+      "id": "g",
+      "name": "Everlasting LIDS",
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_g"
+    }
+  ]
+}

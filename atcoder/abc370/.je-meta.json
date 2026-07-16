@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc370",
+  "contest_name": "Toyota Programming Contest 2024#9（AtCoder Beginner Contest 370）",
+  "url": "https://atcoder.jp/contests/abc370",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Raise Both Hands",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Binary Alchemy",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Word Ladder",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Cross Explosion",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "Avoid K Partition",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Cake Division",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Divisible by 3",
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_g",
+      "filename": "main.cpp"
+    }
+  ]
+}

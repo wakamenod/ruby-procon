@@ -1,0 +1,50 @@
+{
+  "judge": "atcoder",
+  "contest_id": "abc367",
+  "contest_name": "AtCoder Beginner Contest 367",
+  "url": "https://atcoder.jp/contests/abc367",
+  "tasks": [
+    {
+      "id": "a",
+      "name": "Shout Everyday",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_a",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "b",
+      "name": "Cut .0",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_b",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "c",
+      "name": "Enumerate Sequences",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_c",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "d",
+      "name": "Pedometer",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_d",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "e",
+      "name": "Permute K times",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_e",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "f",
+      "name": "Rearrange Query",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_f",
+      "filename": "main.cpp"
+    },
+    {
+      "id": "g",
+      "name": "Sum of (XOR^K or 0)",
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_g",
+      "filename": "main.cpp"
+    }
+  ]
+}
